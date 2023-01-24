@@ -1,0 +1,75 @@
+.logo-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.header-container {
+  background-color: #2c364c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-top: 0;
+
+  height: 60px;
+}
+.logo-image {
+  width: 120px;
+}
+.logout-button {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #4f46e5;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-home-jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-el {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 25px;
+  justify-content: center;
+}
+.list-el-button {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 25px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #4f46e5;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+.home-jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
